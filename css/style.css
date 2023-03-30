@@ -1,0 +1,103 @@
+body {
+    font-family: Arial, sans-serif;
+    font-weight: 400;
+}
+
+.nav-link .active {
+    color: black;
+}
+
+.slick-prev {
+    left: 10px;
+    z-index: 99;
+}
+
+.slick-prev::before {
+    content: url("../images/back.png");
+}
+
+.slick-next {
+    right: 30px;
+}
+
+.slick-next::before {
+    content: url("../images/forward.png");
+}
+
+.ui-state-default {
+    border: 1px solid #003eff;
+    background: #007fff;
+    font-weight: normal;
+    color: #fff;
+    position: relative;
+}
+
+/*.accordion__arrow {*/
+/*    position: absolute;*/
+/*    top: 29px; right: 28px;*/
+/*    display: inline-block;*/
+/*    vertical-align: middle;*/
+/*    width: 20px;*/
+/*    height: 20px;*/
+/*    text-align: center;*/
+/*    color: #fff;*/
+/*    margin-right: 5px;*/
+/*    -webkit-transition: all 0.2s ease-out;*/
+/*    transition: all 0.2s ease-out;*/
+/*}*/
+
+/*.accordion__rotate {*/
+/*    transform: rotate(180deg);*/
+/*}*/
+
+
+.ui-accordion .ui-accordion-header {
+    position: relative;
+}
+
+.ui-accordion .ui-accordion-header h3 {
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.ui-accordion-header-icon .ui-icon {
+    display: inline-block;
+    vertical-align: middle;
+    position: absolute;
+    top: 29px;
+    right: 28px;
+    color: #fff;
+}
+
+.ui-state-default .ui-icon {
+    background-image: url("/images/next 3 (1).png");
+    position: absolute;
+    top: 28px;
+    right: 28px;
+    color: #fff;
+    width: 20px;
+    height: 20px;
+}
+
+.ui-state-active .ui-icon {
+    background-image: url("/images/next 3.png");
+    position: absolute;
+    top: 28px;
+    right: 28px;
+    color: #fff;
+    width: 20px;
+    height: 20px;
+}
+
+.ui-icon-triangle-1-s {
+    background-position: center;
+}
+
+.ui-icon-triangle-1-e {
+    background-position: center;
+}
+
+.mb-4 {
+    display: flex;
+    justify-content: center;
+}
